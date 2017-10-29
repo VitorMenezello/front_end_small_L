@@ -10,7 +10,8 @@ public class Env {
     protected Env prev;
 
     public Env(Env n) {
-        table = new Hashtable(); prev = n;
+        table = new Hashtable();
+        prev = n;
     }
 
     public void put(Token w, Id i) {
